@@ -1,0 +1,102 @@
+@import "../../Color.scss"; 
+
+
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+
+header {
+    color : $color4; 
+    background-color: $color1;
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    h1 {
+        color : $color4; 
+        background-color: $color1;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        margin-right: 100px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    
+    .navBar {
+        background-color: $color1;
+
+        .search {
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            border-radius: 5vw;
+            border: 0.1rem solid $color4;
+            padding: 7px;
+            background-color: $color4;
+            outline: none;
+            transition: all 1s;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    
+        .login {
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            font-weight: bolder;
+            margin-left:100px;
+            border-radius: 5vw;
+            border: none;
+            padding: 9px;
+            color: $color4; 
+            background-color: $color1;
+            outline: none;
+            transition: all 1s;
+            &:hover{
+                cursor: pointer;
+                background-color: $color4;
+                color: $color1;
+            }
+        }
+    
+        .cart {
+            font-family: 'Roboto', sans-serif;
+            font-size: 25px;
+            font-weight: bolder;
+            margin-left: 20px;
+            border-radius: 5vw;
+            border: none;
+            padding: 9px;
+            background-color: $color1;
+            color: $color4; 
+            outline: none;
+            transition: all 1s;
+            &:hover{
+                cursor: pointer;
+                background-color: $color4;
+                color: $color1;
+            }
+        }
+    }
+
+    
+}
+
+.headercontainer{
+    text-align: center;
+    margin-top: 50px;
+
+    .headerimage {
+        width: 90%;
+        height: 550px;
+    }
+    
+
+}

@@ -1,0 +1,221 @@
+@import "../../Color.scss"; 
+
+#root {
+    background-color: $color4; 
+}
+
+.category-container {
+    background-color: $color4;
+    width: 100%;
+
+    .category{
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        color: $color2;
+        margin: 150px 0 50px 160px;
+    }
+
+    .c-ul {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+      
+        .c-li {
+            margin: 40px; 
+            transition: all 1s;
+            display: inline;
+            
+
+            .green {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 17px;
+                text-decoration: none;
+                color: $color1; 
+                background-color: $color2;
+                border-radius: 1vw;
+                border: 0.1rem solid $color2;
+                border: none;
+                font-weight: bold;
+                width: 130px;
+                height: 180px;
+                transition: all 1s;
+                &:hover{
+                    cursor: pointer;
+                    color: $color2;
+                    background-color: $color3;
+                }
+            }
+            
+            .blue {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 17px;
+                text-decoration: none;
+                color: $color1; 
+                background-color: $color3;
+                border-radius: 1vw;
+                border: 0.1rem solid $color3;
+                border: none;
+                font-weight: bold;
+                width: 130px;
+                height: 180px;
+                transition: all 1s;
+                &:hover{
+                    cursor: pointer;
+                    color: $color3;
+                    background-color: $color2;
+                }
+            }
+        }
+    }
+}
+
+
+.allPopular{
+    width: 100%;
+
+    .popular {
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        color: $color2;
+        margin: 200px 0 50px 180px;
+
+    }
+
+    .listcontainer {
+        background-color: $color1;
+        padding-top: 60px; 
+        padding-bottom: 40px;
+        margin-left: 95px;
+        margin-right: 95px;
+        border-radius: 1vw;
+        border: 0.3rem solid $color1;
+
+    }
+
+    .p-ul {
+        list-style: none;
+        overflow: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+       
+        .p-li{
+            display: inline-block; 
+            text-align: center;
+            width: 30%;
+            color: white;
+            transition: all 1s;
+            &:hover{
+                cursor: pointer;
+                border-radius: 1vw;
+                border: none;
+                background-color: $color4;
+                color: $color1;
+            }
+
+            .p-image{
+                width: 60%;
+                height: 70%;
+                margin-bottom: 10px;
+                margin-top: 15px;
+                
+            }
+            .p-category {
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                font-size: 17px;
+                margin-bottom: 5px;
+            }
+            .p-name {
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 14px;
+            }
+            .p-price {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+
+    }
+
+}
+
+
+.allNewItems{
+    width: 100%;
+    padding-bottom: 300px;
+    .newItems {
+        font-family: 'Roboto', sans-serif;
+        font-size: 35px;
+        color: $color2;
+        margin: 200px 0 50px 180px;
+
+    }
+
+    .newItemcontainer {
+        background-color: $color1;
+        padding-top: 60px; 
+        padding-bottom: 40px;
+        margin-left: 95px;
+        margin-right: 95px;
+        border-radius: 1vw;
+        border: 0.3rem solid $color1;
+
+    }
+
+    .n-ul {
+        list-style: none;
+        overflow: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: scroll;
+       
+        .n-li{
+            display: inline-block; 
+            text-align: center;
+            width: 30%;
+            color: white;
+            transition: all 1s;
+            &:hover{
+                cursor: pointer;
+                border-radius: 1vw;
+                border: none;
+                background-color: $color4;
+                color: $color1;
+            }
+
+            .n-image{
+                width: 60%;
+                height: 70%;
+                margin-bottom: 10px;
+                margin-top: 15px;
+            }
+            .n-category {
+                font-family: 'Roboto', sans-serif;
+                font-weight: bold;
+                font-size: 17px;
+                margin-bottom: 5px;
+            }
+
+            .n-name {
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 14px;
+            }
+
+            .n-price {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+            

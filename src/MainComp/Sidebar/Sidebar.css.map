@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "Sidebar.scss",
+        "../../Color.scss"
+    ],
+    "names": [],
+    "file": "Sidebar.css"
+}

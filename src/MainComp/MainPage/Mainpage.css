@@ -1,0 +1,212 @@
+#root {
+  background-color: #ffffc7;
+}
+
+.category-container {
+  background-color: #ffffc7;
+  width: 100%;
+}
+
+.category-container .category {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #1eae98;
+  margin: 150px 0 50px 160px;
+}
+
+.category-container .c-ul {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.category-container .c-ul .c-li {
+  margin: 40px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  display: inline;
+}
+
+.category-container .c-ul .c-li .green {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: #233e8b;
+  background-color: #1eae98;
+  border-radius: 1vw;
+  border: 0.1rem solid #1eae98;
+  border: none;
+  font-weight: bold;
+  width: 130px;
+  height: 180px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.category-container .c-ul .c-li .green:hover {
+  cursor: pointer;
+  color: #1eae98;
+  background-color: #a9f1df;
+}
+
+.category-container .c-ul .c-li .blue {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  color: #233e8b;
+  background-color: #a9f1df;
+  border-radius: 1vw;
+  border: 0.1rem solid #a9f1df;
+  border: none;
+  font-weight: bold;
+  width: 130px;
+  height: 180px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.category-container .c-ul .c-li .blue:hover {
+  cursor: pointer;
+  color: #a9f1df;
+  background-color: #1eae98;
+}
+
+.allPopular {
+  width: 100%;
+}
+
+.allPopular .popular {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #1eae98;
+  margin: 200px 0 50px 180px;
+}
+
+.allPopular .listcontainer {
+  background-color: #233e8b;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-left: 95px;
+  margin-right: 95px;
+  border-radius: 1vw;
+  border: 0.3rem solid #233e8b;
+}
+
+.allPopular .p-ul {
+  list-style: none;
+  overflow: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+}
+
+.allPopular .p-ul .p-li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.allPopular .p-ul .p-li:hover {
+  cursor: pointer;
+  border-radius: 1vw;
+  border: none;
+  background-color: #ffffc7;
+  color: #233e8b;
+}
+
+.allPopular .p-ul .p-li .p-image {
+  width: 60%;
+  height: 70%;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.allPopular .p-ul .p-li .p-category {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.allPopular .p-ul .p-li .p-name {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 14px;
+}
+
+.allPopular .p-ul .p-li .p-price {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.allNewItems {
+  width: 100%;
+  padding-bottom: 300px;
+}
+
+.allNewItems .newItems {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #1eae98;
+  margin: 200px 0 50px 180px;
+}
+
+.allNewItems .newItemcontainer {
+  background-color: #233e8b;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-left: 95px;
+  margin-right: 95px;
+  border-radius: 1vw;
+  border: 0.3rem solid #233e8b;
+}
+
+.allNewItems .n-ul {
+  list-style: none;
+  overflow: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+}
+
+.allNewItems .n-ul .n-li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  color: white;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.allNewItems .n-ul .n-li:hover {
+  cursor: pointer;
+  border-radius: 1vw;
+  border: none;
+  background-color: #ffffc7;
+  color: #233e8b;
+}
+
+.allNewItems .n-ul .n-li .n-image {
+  width: 60%;
+  height: 70%;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.allNewItems .n-ul .n-li .n-category {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.allNewItems .n-ul .n-li .n-name {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 14px;
+}
+
+.allNewItems .n-ul .n-li .n-price {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=Mainpage.css.map */

@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, MainComp } from 'react'; 
+import './App.css'; 
+import Mainpage from "./MainComp/MainPage/Mainpage"; 
+import Header from "./MainComp/Header/Header"; 
+import Side from "./MainComp/Sidebar/Sidebar"; 
+import PopularProduct from "./MainComp/PopularProduct/PopularProduct"; 
+import Categories from "./MainComp/Categories/Categories"; 
+import Footer from "./MainComp/Footer/Footer";  
+import Main from './MainComp/Main';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+
+
+  /* Header.js control */
+  //Search Method//
+  render () {
+  
+    return(
+      <>
+      {/*Header.js */}
+      <Header 
+        // login = {this.login}
+        // cart = {this.cart}
+        //img = {this.headerimage}
+      />
+      <Main/> 
+
+      </>
+    ); 
+  }
+  
 }
+
 
 export default App;
