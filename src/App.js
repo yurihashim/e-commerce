@@ -20,9 +20,7 @@ class App extends Component {
       <>
       {/*Header.js */}
       <Header 
-        // login = {this.login}
-        // cart = {this.cart}
-        //img = {this.headerimage}
+       
       />
       <Main/> 
 
